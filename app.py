@@ -4,6 +4,7 @@ from date import datetime
 
 
 app = Flask(__name__)
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///healthfusion.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
